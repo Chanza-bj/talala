@@ -95,9 +95,9 @@ with SingleTickerProviderStateMixin {
 }
 class CustomListTile extends StatelessWidget {
 
-  IconData icon;
-  String text;
-  Function onTap;
+  final IconData icon;
+  final String text;
+  final Function onTap;
 
   CustomListTile(this.icon,this.text,this.onTap);
   @override
